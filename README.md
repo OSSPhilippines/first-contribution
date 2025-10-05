@@ -37,7 +37,9 @@ Replace `your-name` with your actual name or GitHub username.
 
 ### Step 4: Add Your Information
 
-Open the `data.json` file and add your information to the array. Here's the format:
+Create a new JSON file in the `contributors/` directory with your GitHub username as the filename. For example, if your username is `johndoe`, create `contributors/johndoe.json`.
+
+**Template:**
 
 ```json
 {
@@ -48,35 +50,35 @@ Open the `data.json` file and add your information to the array. Here's the form
 ```
 
 **Important:** 
-- Add a comma after the previous entry before adding yours
+- **Create a new file** named `contributors/{your-github-username}.json`
+- Replace `your-github-username` with your actual GitHub username
 - The `photo` field is optional. If you don't provide it, your GitHub avatar will be used automatically
-- Make sure your JSON is properly formatted
+- Make sure your JSON is properly formatted (use the template above)
 
 **Example:**
 
+If your username is `johndoe`, create `contributors/johndoe.json`:
+
 ```json
-[
-  {
-    "github": "exampleuser",
-    "photo": "https://github.com/exampleuser.png",
-    "quote": "The best way to predict the future is to invent it."
-  },
-  {
-    "github": "yournewusername",
-    "photo": "https://github.com/yournewusername.png",
-    "quote": "Code is like humor. When you have to explain it, it's bad."
-  }
-]
+{
+  "github": "johndoe",
+  "photo": "https://github.com/johndoe.png",
+  "quote": "Code is like humor. When you have to explain it, it's bad."
+}
 ```
+
+You can also look at existing files in the `contributors/` directory or use `contributors/TEMPLATE.json` as a reference.
 
 ### Step 5: Commit Your Changes
 
 Add and commit your changes:
 
 ```bash
-git add data.json
+git add contributors/your-github-username.json
 git commit -m "Add YOUR-NAME to contributors"
 ```
+
+Replace `your-github-username` with your actual GitHub username.
 
 ### Step 6: Push to GitHub
 
@@ -107,6 +109,7 @@ Or open `index.html` in your browser locally to see the page.
 ## 💡 Need Help?
 
 If you run into any issues or have questions, feel free to:
+- Check out [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines
 - Open an issue in this repository
 - Ask for help in the pull request comments
 - Reach out to the community

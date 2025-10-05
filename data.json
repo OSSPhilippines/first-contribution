@@ -1,23 +1,13 @@
 [
   {
-    "github": "picklerick",
-    "photo": "https://vignette2.wikia.nocookie.net/rickandmorty/images/7/7b/Picklerick.jpg/revision/latest?cb=20170725205548",
-    "quote": "I'm Pickle Riiiiiiiiiiiiiiiiiiiiiiiick!"
-  },
-  {
-    "github": "melio0504",
-    "photo": "https://github.com/melio0504.png",
-    "quote": "Time spent with cats is never wasted."
-  },
-  {
     "github": "boringdeveloper",
     "photo": "https://github.com/boringdeveloper.png",
     "quote": "It works on my machine."
   },
   {
-    "github": "MKgu-droid",
-    "photo": "https://github.com/MKgu-droid.png",
-    "quote": "Everything happens for a reason"
+    "github": "Himans40",
+    "photo": "https://github.com/Himans40.png",
+    "quote": "The best way to predict the future is to invent it."
   },
   {
     "github": "JefersonDeLeon",
@@ -28,6 +18,21 @@
     "github": "jofftiquez",
     "photo": "https://github.com/jofftiquez.png",
     "quote": "It's something unpredictable but in the end it's right"
+  },
+  {
+    "github": "melio0504",
+    "photo": "https://github.com/melio0504.png",
+    "quote": "Time spent with cats is never wasted."
+  },
+  {
+    "github": "MKgu-droid",
+    "photo": "https://github.com/MKgu-droid.png",
+    "quote": "Everything happens for a reason"
+  },
+  {
+    "github": "picklerick",
+    "photo": "https://vignette2.wikia.nocookie.net/rickandmorty/images/7/7b/Picklerick.jpg/revision/latest?cb=20170725205548",
+    "quote": "I'm Pickle Riiiiiiiiiiiiiiiiiiiiiiiick!"
   }
   {
     "github": "Parth-co79",
@@ -35,4 +40,5 @@
     "quote": "Strive to build things that make a difference!"
   }
   
+]
 ]

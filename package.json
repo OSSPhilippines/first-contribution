@@ -1,0 +1,19 @@
+{
+  "name": "first-contribution",
+  "version": "1.0.0",
+  "description": "A simple project for first-time contributors to practice making pull requests",
+  "scripts": {
+    "build": "node scripts/build-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSSPhilippines/first-contribution.git"
+  },
+  "keywords": [
+    "first-contribution",
+    "open-source",
+    "beginner-friendly"
+  ],
+  "author": "Open Source Software PH",
+  "license": "MIT"
+}
