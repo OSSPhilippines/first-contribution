@@ -48,6 +48,7 @@ Open the `data.json` file and add your information to the array. Here's the form
 ```
 
 **Important:** 
+- **Always add your entry at the end of the JSON array** (before the closing `]`). It's first come, first serve!
 - Add a comma after the previous entry before adding yours
 - The `photo` field is optional. If you don't provide it, your GitHub avatar will be used automatically
 - Make sure your JSON is properly formatted
